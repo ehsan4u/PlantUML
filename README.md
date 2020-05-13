@@ -3,13 +3,6 @@
 How to use
 
 @startuml
-!define LIGHTORANGE
-!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
-' your UML '
-@enduml
-
-
-@startuml
 class Object << general >>
 Object <|--- ArrayList : parent
 
